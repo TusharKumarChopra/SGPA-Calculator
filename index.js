@@ -9,13 +9,13 @@ const fields = document.querySelector(".fields");
 function grades(mark) {
     if (mark >= 90)
         return 10
-    else if (mark < 90 && mark >= 81)
+    else if (mark < 90 && mark >= 80)
         return 9
-    else if (mark < 80 && mark >= 71)
+    else if (mark < 80 && mark >= 70)
         return 8
-    else if (mark < 70 && mark >= 61)
+    else if (mark < 70 && mark >= 60)
         return 7
-    else if (mark < 60 && mark >= 51)
+    else if (mark < 60 && mark >= 50)
         return 6
     else if (mark < 50 && mark >= 45)
         return 5
